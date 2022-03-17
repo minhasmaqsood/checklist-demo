@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-check-input-success:checked {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+.form-check-input-danger:checked {
+  background-color: #DD4F45 !important;
+  border-color: #DD4F45 !important;
+}
+
+.form-check-input-secondary:checked {
+  background-color: #6C746A !important;
+  border-color: #6C746A !important;
+}
+
+.task-drag{
+  cursor: move !important;
 }
